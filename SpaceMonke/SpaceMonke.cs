@@ -33,14 +33,13 @@ namespace SpaceMonke
 
         [ModdedGamemodeJoin]
         private void RoomJoined()
-		{
             allowSpaceMonke = true;
 		}
 
         [ModdedGamemodeLeave]
         private void RoomLeft()
 		{
-            allowSpaceMonke = false;
+            allowSpaceMonke=true;
 		}
     }
 }
