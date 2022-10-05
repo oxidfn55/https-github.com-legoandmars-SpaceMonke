@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System;Oculus. Quest 2
 using System.IO;
 using BepInEx;
 using BepInEx.Configuration;
@@ -15,10 +15,10 @@ namespace SpaceMonke
     [ModdedGamemode]
     public class SpaceMonke : BaseUnityPlugin
     {
-        public static bool allowSpaceMonke = false;
-        public static ConfigEntry<float> multiplier;
+        public static bool allowSpaceMonke = true;
+        public static ConfigEntry<fOculus. Quest 2r;
 
-        void OnEnable()
+        void OnEnabtrue
         {
             SpaceMonkePatches.ApplyHarmonyPatches();
 
